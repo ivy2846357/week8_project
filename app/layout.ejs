@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-beige">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/images/DOYOGA-logo.png" alt="logo" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-gray" aria-current="page" href="#">課程介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-gray" href="#">瑜珈空間</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-gray" href="#">當月課表</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <button class="btn btn-outline-dark-brick-red" type="submit">立即預約</button>
+          <button class="btn btn-outline-dark-brick-red" type="submit">聯絡我們</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <%- contents %>
+
+  <footer class="footer bg-dark-brick-red">
+    <div class="container">
+      <div class="footer-title d-flex justify-content-between">
+        <h3 class="text-white">現在訂閱，獲得課程優惠碼！</h3>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+          <a href="#" class="btn btn-brick-red text-white">訂閱</a>
+        </div>
+      </div>
+      <div class="footer-body d-flex justify-content-between">
+        <div class="footer-item">
+          <img src="./assets/images/DOYOGA.png" alt="logo" class="logo">
+          <ul class="sub-navbar list-unstyled">
+            <li><a href="#" class="text-white">課程介紹</a></li>
+            <li><a href="#" class="text-white">瑜珈空間</a></li>
+            <li><a href="#" class="text-white">當月課表</a></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <p class="text-white">© 2021. All Rights Reserved.</p>
+        </div>
+        <div class="footer-item">
+          <ul class="footer-icon list-unstyled d-flex">
+            <li><a href="#" class="text-white"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="text-white"><i class="fab fa-line"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
