@@ -1,0 +1,47 @@
+.banner {
+    width: 100%;
+    height: 582px;
+    background-image: url(../images/photo-1612157777902-5382bc6e864b.jpeg);
+    background-position: 0 110%;
+    background-size: cover;
+}
+
+.teacher-info {
+    .card-img {
+        height: 628px;
+        background-image: url(../images/photo-1540206276207-3af25c08abc4.jpeg);
+        background-position: 0 90%;
+    }
+
+    .teacher-pic {
+        width: 94px;
+        height: 94px;
+    }
+}
+
+.environment-introduct {
+    .card-img-lg {
+        height: 444px;
+    }
+
+    .card-img-md {
+        height: 207px;
+    }
+}
+
+.carousel-img {
+    height: 445px;
+}
+
+.course-select {
+    .card-img {
+        height: 214px;
+    }
+}
+
+.recommend {
+    .user-img {
+        width: 60px;
+        height: 60px;
+    }
+}
