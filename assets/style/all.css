@@ -13533,12 +13533,25 @@ footer .footer-title .input-group {
   color: #FFF;
 }
 
+.reserve-btn:hover,
+.course-btn:hover {
+  color: #FFF;
+}
+
+.fa-arrow {
+  margin-left: 11px;
+}
+
 .banner {
   width: 100%;
   height: 582px;
   background-image: url(../images/photo-1612157777902-5382bc6e864b.jpeg);
   background-position: 0 110%;
   background-size: cover;
+}
+
+.advantage-card {
+  height: 420px;
 }
 
 .teacher-info .card-img {
@@ -13564,13 +13577,28 @@ footer .footer-title .input-group {
   height: 445px;
 }
 
-.course-select .card-img {
-  height: 214px;
+.course-select .course-card {
+  height: 497px;
 }
 
-.recommend .user-img {
+.course-select .course-card .card-img {
+  height: 50%;
+  border-radius: 16px 16px 0px 0px;
+  display: block;
+}
+
+.recommend .recommend-card {
+  padding: 14px 16px;
+}
+
+.recommend .recommend-card .user-img {
   width: 60px;
   height: 60px;
+  margin-right: 22px;
+}
+
+.recommend .mb-11 {
+  margin-bottom: 11px;
 }
 
 /*# sourceMappingURL=all.css.map */
