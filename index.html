@@ -42,6 +42,20 @@
     </div>
   </nav>
 
+  <div class="icon-navbar position-fixed">
+    <ul class="list-unstyled d-flex flex-column me-3">
+      <li class="mb-2">
+        <a href="#" class="text-dark-brick-red h4"><i class="fab fa-facebook"></i></a>
+      </li>
+      <li class="mb-2">
+        <a href="#" class="text-dark-brick-red h4"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li class="mb-2">
+        <a href="#" class="text-dark-brick-red h4"><i class="fab fa-line"></i></a>
+      </li>
+    </ul>
+  </div>
+
   
 <div class="banner d-flex align-items-center mb-7">
     <div class="container">
@@ -97,18 +111,18 @@
 </div>
 
 <div class="teacher-info bg-beige py-9">
-    <div class="container">
+    <div class="container position-relative d-flex">
         <div class="row">
             <div class="col-6">
-                <div class="card-img rounded-lg"></div>
+                <div class="card-img rounded-lg position-relative"></div>
             </div>
-            <div class="col-6">
+            <div class="position-absolute teacher-card col-6">
                 <div class="py-4">
                     <h3 class="text-dark-brick-red mb-1">頂尖師資、專業教學</h3>
                     <h5 class="text-brick-red">強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。</h5>
                 </div>
-                <ul class="teacher-card list-unstyled">
-                    <li class="bg-white d-flex align-items-center rounded-lg py-7 py-8 mb-4">
+                <ul class="list-unstyled d-flex flex-column align-items-end">
+                    <li class="bg-white teacher-card-item-lg d-flex align-items-center rounded-lg py-7 px-8 mb-4">
                         <img src="./assets/images/teacher-1.png" alt="" class="teacher-pic me-4">
                         <div class="teacher-card-body">
                             <h5 class="text-gray">Carol Tang 老師</h5>
@@ -116,14 +130,14 @@
                             <h6 class="text-gray">瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。</h6>
                         </div>
                     </li>
-                    <li class="bg-white d-flex align-items-center rounded-lg py-4 px-6 mb-4">
+                    <li class="bg-white teacher-card-item d-flex align-items-center rounded-lg py-4 px-6 mb-4">
                         <img src="./assets/images/teacher-2.png" alt="" class="teacher-pic me-4">
                         <div class="teacher-card-body">
                             <h5 class="text-gray">Carol Tang 老師</h5>
                             <h6 class="text-gray">教學經歷 10 年</h6>
                         </div>
                     </li>
-                    <li class="bg-white d-flex align-items-center rounded-lg py-4 px-6">
+                    <li class="bg-white teacher-card-item d-flex align-items-center rounded-lg py-4 px-6">
                         <img src="./assets/images/teacher-3.png" alt="" class="teacher-pic me-4">
                         <div class="teacher-card-body">
                             <h5 class="text-gray">Carol Tang 老師</h5>
@@ -219,7 +233,7 @@
                             <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</h6>
                         </div>
                         <div class="card-footer border-0 bg-transparent p-0">
-                            <a href="#" class="btn btn-brick-red text-white d-block my-auto">選擇課程</a>
+                            <a href="#" class="btn btn-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
                         </div>
                     </div>
                 </div>
@@ -235,7 +249,7 @@
                             <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。</h6>
                         </div>
                         <div class="card-footer border-0 bg-transparent p-0">
-                            <a href="#" class="btn btn-brick-red text-white d-block">選擇課程</a>
+                            <a href="#" class="btn btn-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
                         </div>
                     </div>
                 </div>
@@ -251,7 +265,7 @@
                             <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。</h6>
                         </div>
                         <div class="card-footer border-0 bg-transparent p-0">
-                            <a href="#" class="btn btn-brick-red text-white d-block">選擇課程</a>
+                            <a href="#" class="btn btn-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
                         </div>
                     </div>
                 </div>
@@ -284,7 +298,7 @@
                 <div class="d-flex align-items-center justify-content-between bg-white rounded-lg recommend-card">
                     <div class="user-img" style="background-image: url(./assets/images/user-2.png);"></div>
                     <div class="card-body p-0">
-                        <p class="text-dark-brick-red mb-11">Joanne Oct 17 2020</p>
+                        <p class="text-dark-brick-red mb-11">穎旻 Oct 17 2020</p>
                         <h5 class="star text-brick-red mb-11">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -292,7 +306,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </h5>
-                        <h6 class="text-dark-brick-red">服務很好、設備優良！</h6>
+                        <h6 class="text-dark-brick-red">上課後身體健康很多</h6>
                     </div>
                 </div>
             </div>
@@ -300,7 +314,7 @@
                 <div class="d-flex align-items-center justify-content-between bg-white rounded-lg recommend-card">
                     <div class="user-img" style="background-image: url(./assets/images/user-3.png);"></div>
                     <div class="card-body p-0">
-                        <p class="text-dark-brick-red mb-11">Joanne Oct 17 2020</p>
+                        <p class="text-dark-brick-red mb-11">子琪 Oct 17 2020</p>
                         <h5 class="star text-brick-red mb-11">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -308,7 +322,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </h5>
-                        <h6 class="text-dark-brick-red">服務很好、設備優良！</h6>
+                        <h6 class="text-dark-brick-red">上課很有趣！</h6>
                     </div>
                 </div>
             </div>
@@ -318,7 +332,7 @@
                 <div class="d-flex align-items-center justify-content-between bg-white rounded-lg recommend-card">
                     <div class="user-img" style="background-image: url(./assets/images/user-4.png);"></div>
                     <div class="card-body p-0">
-                        <p class="text-dark-brick-red mb-11">Joanne Oct 17 2020</p>
+                        <p class="text-dark-brick-red mb-11">葉子 Oct 17 2020</p>
                         <h5 class="star text-brick-red mb-11">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -326,7 +340,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </h5>
-                        <h6 class="text-dark-brick-red">服務很好、設備優良！</h6>
+                        <h6 class="text-dark-brick-red">老師的教學很專業</h6>
                     </div>
                 </div>
             </div>
@@ -334,7 +348,7 @@
                 <div class="d-flex align-items-center justify-content-between bg-white rounded-lg recommend-card">
                     <div class="user-img" style="background-image: url(./assets/images/user-5.png);"></div>
                     <div class="card-body p-0">
-                        <p class="text-dark-brick-red mb-11">Joanne Oct 17 2020</p>
+                        <p class="text-dark-brick-red mb-11">Ray Oct 17 2020</p>
                         <h5 class="star text-brick-red mb-11">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -342,7 +356,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </h5>
-                        <h6 class="text-dark-brick-red">服務很好、設備優良！</h6>
+                        <h6 class="text-dark-brick-red">很舒壓</h6>
                     </div>
                 </div>
             </div>
@@ -350,7 +364,7 @@
                 <div class="d-flex align-items-center justify-content-between bg-white rounded-lg recommend-card">
                     <div class="user-img" style="background-image: url(./assets/images/uset-6.png);"></div>
                     <div class="card-body p-0">
-                        <p class="text-dark-brick-red mb-11">Joanne Oct 17 2020</p>
+                        <p class="text-dark-brick-red mb-11">俊儀 Oct 17 2020</p>
                         <h5 class="star text-brick-red mb-11">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -358,7 +372,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </h5>
-                        <h6 class="text-dark-brick-red">服務很好、設備優良！</h6>
+                        <h6 class="text-dark-brick-red">讚的！</h6>
                     </div>
                 </div>
             </div>

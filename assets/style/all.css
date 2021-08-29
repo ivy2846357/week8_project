@@ -13555,6 +13555,7 @@ footer .footer-title .input-group {
 }
 
 .teacher-info .card-img {
+  width: 100%;
   height: 628px;
   background-image: url(../images/photo-1540206276207-3af25c08abc4.jpeg);
   background-position: 0 90%;
@@ -13599,6 +13600,31 @@ footer .footer-title .input-group {
 
 .recommend .mb-11 {
   margin-bottom: 11px;
+}
+
+.teacher-card {
+  top: 0;
+  right: 0;
+}
+
+.teacher-card-item {
+  width: 100%;
+}
+
+.teacher-card-item-lg {
+  width: 110%;
+}
+
+.icon-navbar {
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.icon-navbar .fab {
+  font-size: 48px;
 }
 
 /*# sourceMappingURL=all.css.map */
