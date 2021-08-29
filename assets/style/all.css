@@ -13627,13 +13627,17 @@ footer .footer-title .input-group {
   font-size: 48px;
 }
 
-.reserve-info {
+.notice {
   width: 35%;
   margin-bottom: 104px;
 }
 
 .send-btn {
   margin-bottom: 116px;
+}
+
+.index-btn {
+  margin-bottom: 104px;
 }
 
 /*# sourceMappingURL=all.css.map */
