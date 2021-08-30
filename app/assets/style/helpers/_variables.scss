@@ -581,6 +581,7 @@ $table-variants: ("primary": shift-color($primary, $table-bg-scale),
   "danger": shift-color($danger, $table-bg-scale),
   "light": $light,
   "dark": $dark,
+  "beige": $beige,
 ) !default;
 // scss-docs-end table-loop
 
