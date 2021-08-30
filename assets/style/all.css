@@ -2374,6 +2374,18 @@ progress {
   border-color: #373b3e;
 }
 
+.table-beige {
+  --bs-table-bg: #F5F0E7;
+  --bs-table-striped-bg: #e9e4db;
+  --bs-table-striped-color: #000;
+  --bs-table-active-bg: #ddd8d0;
+  --bs-table-active-color: #000;
+  --bs-table-hover-bg: #e3ded6;
+  --bs-table-hover-color: #000;
+  color: #000;
+  border-color: #ddd8d0;
+}
+
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -13675,6 +13687,10 @@ footer .footer-title .input-group {
 
 .teacher-information {
   margin-bottom: 137px;
+}
+
+.class-notice {
+  margin-bottom: 104px;
 }
 
 /*# sourceMappingURL=all.css.map */
