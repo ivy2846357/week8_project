@@ -13644,4 +13644,37 @@ footer .footer-title .input-group {
   height: 341px;
 }
 
+.class-card {
+  height: 196px;
+  position: relative;
+}
+
+.class-card::before {
+  position: absolute;
+  content: '60min';
+  background-color: #C0A4A5;
+  color: #FFF;
+  border-radius: 16px;
+  width: 75px;
+  height: 29px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 29px;
+  top: -15px;
+  left: 40px;
+}
+
+.card-photo {
+  border-radius: 50%;
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  top: -12%;
+  left: 38%;
+}
+
+.teacher-information {
+  margin-bottom: 137px;
+}
+
 /*# sourceMappingURL=all.css.map */
