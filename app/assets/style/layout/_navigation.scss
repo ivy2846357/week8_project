@@ -1,0 +1,8 @@
+.nav-hover {
+    border-bottom: 1px solid transparent;
+    transition: all .3s;
+
+    &:hover {
+        border-bottom: 1px solid #707070;
+    }
+}
