@@ -28,3 +28,13 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
+
+const elem = document.querySelector('input[name="date-picker"]');
+const datepicker = new Datepicker(elem, {
+  // ...options
+  autohide: true,
+
+  nextArrow: '>',
+  prevArrow: '<',
+  buttonClass: 'btn text-primary',
+});
