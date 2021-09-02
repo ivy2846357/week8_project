@@ -27,4 +27,12 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true
   }
 });
+var elem = document.querySelector('input[name="date-picker"]');
+var datepicker = new Datepicker(elem, {
+  // ...options
+  autohide: true,
+  nextArrow: '>',
+  prevArrow: '<',
+  buttonClass: 'btn text-primary'
+});
 //# sourceMappingURL=all.js.map
