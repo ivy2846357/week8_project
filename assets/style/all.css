@@ -13517,6 +13517,17 @@ a {
   width: 96px;
 }
 
+.nav-hover {
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.nav-hover:hover {
+  border-bottom: 1px solid #707070;
+}
+
 footer .footer-title {
   border-bottom: 1px solid #FFF;
 }
@@ -13689,10 +13700,6 @@ footer .footer-title .input-group {
   height: 96px;
   top: -12%;
   left: 38%;
-}
-
-.teacher-information {
-  margin-bottom: 137px;
 }
 
 .class-notice {
