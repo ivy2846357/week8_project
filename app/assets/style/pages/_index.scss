@@ -10,6 +10,12 @@
     height: 420px;
 }
 
+@media (max-width: 992px) {
+    .advantage-card {
+        height: 252px;
+    }
+}
+
 .teacher-info {
 
     .card-img {
@@ -30,8 +36,26 @@
         height: 444px;
     }
 
+    @media (max-width: 992px) {
+        .card-img-lg {
+            height: 266px;
+        }
+    }
+
     .card-img-md {
         height: 207px;
+    }
+
+    @media (max-width: 992px) {
+        .card-img-md {
+            height: 117px;
+        }
+    }
+}
+
+.course-introduct {
+    .card-img {
+        height: 150px;
     }
 }
 
