@@ -13502,6 +13502,7 @@ fieldset:disabled .btn {
 
 body {
   font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 400;
 }
 
 .bg-cover {
@@ -13577,6 +13578,12 @@ footer .footer-title .input-group {
   height: 420px;
 }
 
+@media (max-width: 992px) {
+  .advantage-card {
+    height: 252px;
+  }
+}
+
 .teacher-info .card-img {
   width: 100%;
   height: 628px;
@@ -13593,8 +13600,24 @@ footer .footer-title .input-group {
   height: 444px;
 }
 
+@media (max-width: 992px) {
+  .environment-introduct .card-img-lg {
+    height: 266px;
+  }
+}
+
 .environment-introduct .card-img-md {
   height: 207px;
+}
+
+@media (max-width: 992px) {
+  .environment-introduct .card-img-md {
+    height: 117px;
+  }
+}
+
+.course-introduct .card-img {
+  height: 150px;
 }
 
 .swiper-img {
@@ -13650,10 +13673,6 @@ footer .footer-title .input-group {
   font-size: 48px;
 }
 
-.notice {
-  width: 35%;
-}
-
 .send-btn {
   margin-bottom: 116px;
 }
@@ -13665,7 +13684,6 @@ footer .footer-title .input-group {
 .select-border {
   display: inline;
   border-bottom: 2px solid #C0A4A5;
-  width: 14%;
   text-align: center;
 }
 

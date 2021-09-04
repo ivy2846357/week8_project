@@ -16,25 +16,28 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-beige py-4">
     <div class="container">
+      <a class="navbar-brand me-9 pe-8 d-lg-none" href="index.html">
+        <img src="./assets/images/DOYOGA-logo.png" alt="logo" class="logo">
+      </a>
       <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-        <a class="navbar-brand me-9 pe-8" href="index.html">
+        <a class="navbar-brand me-9 pe-8 d-none d-lg-block" href="index.html">
           <img src="./assets/images/DOYOGA-logo.png" alt="logo" class="logo">
         </a>
         <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link nav-hover text-gray me-6 px-0" aria-current="page"
+          <li class="nav-item mb-3 mb-lg-0">
+            <a class="nav-link nav-hover text-gray me-6 px-0 d-inline d-lg-block" aria-current="page"
               href="class-introduction.html">課程介紹</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link nav-hover text-gray me-6 px-0" href="class-environment.html">瑜珈空間</a>
+          <li class="nav-item mb-3 mb-lg-0">
+            <a class="nav-link nav-hover text-gray me-6 px-0 d-inline d-lg-block" href="class-environment.html">瑜珈空間</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link nav-hover text-gray px-0" href="schedule.html">當月課表</a>
+          <li class="nav-item mb-3 mb-lg-0">
+            <a class="nav-link nav-hover text-gray px-0 d-inline d-lg-block" href="schedule.html">當月課表</a>
           </li>
         </ul>
         <div class="d-flex">
@@ -47,7 +50,7 @@
     </div>
   </nav>
 
-  <div class="icon-navbar position-fixed">
+  <div class="icon-navbar position-fixed" style="z-index: 1100;">
     <ul class="list-unstyled d-flex flex-column justify-content-center align-items-center me-3">
       <li class="mb-2 rounded-sm">
         <a href="#" class="text-dark-brick-red h4"><i class="fab fa-facebook"></i></a>
@@ -66,13 +69,13 @@
 
 <div class="container mb-6">
     <div class="row justify-content-center">
-        <div class="col-2">
-            <div class="alert bg-beige text-dark-brick-red text-center rounded-lg" role="alert">選擇方案</div>
+        <div class="col-3 col-lg-2">
+            <div class="alert bg-dark-brick-red text-white text-center rounded-lg" role="alert">選擇方案</div>
         </div>
-        <div class="col-2">
-            <div class="alert bg-dark-brick-red text-white text-center rounded-lg" role="alert">填寫資料</div>
+        <div class="col-3 col-lg-2">
+            <div class="alert bg-beige text-dark-brick-red text-center rounded-lg" role="alert">填寫資料</div>
         </div>
-        <div class="col-2">
+        <div class="col-3 col-lg-2">
             <div class="alert bg-beige text-dark-brick-red text-center rounded-lg" role="alert">完成預約</div>
         </div>
     </div>
@@ -86,7 +89,7 @@
 
 <form class="container needs-validation" novalidate>
     <div class="row d-flex justify-content-center">
-        <div class="col-4 text-gray">
+        <div class="col-6 col-lg-4 text-gray">
             <div class="form-group mb-6">
                 <h6 class="mb-3">1. 是否接觸過瑜珈?</h6>
                 <div class="form-check form-check-inline">
@@ -203,21 +206,29 @@
 
   <footer class="footer bg-dark-brick-red">
     <div class="container">
-      <div class="footer-title d-flex justify-content-between align-items-center py-6">
-        <h3 class="text-white m-0">現在訂閱，獲得課程優惠碼！</h3>
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Username"
-            aria-describedby="basic-addon1">
-          <a href="#" class="btn btn-brick-red text-white py-2 px-3">訂閱</a>
+      <div class="row py-6 border-bottom align-items-center">
+        <div class="col-12 col-lg-8">
+          <div class="d-flex justify-content-between align-items-lg-center flex-column flex-lg-row">
+            <h3 class="text-white mb-2 mb-lg-0">現在訂閱，獲得課程優惠碼！</h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-4">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Username"
+              aria-describedby="basic-addon1">
+            <a href="#" class="btn btn-brick-red text-white py-2 px-3">訂閱</a>
+          </div>
         </div>
       </div>
       <div class="footer-body d-flex justify-content-between py-6">
         <div class="footer-item">
-          <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
+          <a href="index.html">
+            <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
+          </a>
           <ul class="sub-navbar list-unstyled">
-            <li class="mb-2"><a href="#" class="text-white">課程介紹</a></li>
-            <li class="mb-2"><a href="#" class="text-white">瑜珈空間</a></li>
-            <li class="mb-2"><a href="#" class="text-white">當月課表</a></li>
+            <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
+            <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
+            <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
           </ul>
         </div>
         <div class="footer-item d-flex">
