@@ -13744,12 +13744,28 @@ footer .footer-title .input-group {
   }
 }
 
+@media (max-width: 576px) {
+  .modal-dialog-width {
+    max-width: 100%;
+  }
+}
+
 .class-notice {
   margin-bottom: 104px;
 }
 
 .environment-card {
   height: 350px;
+}
+
+.map-height {
+  height: 450px;
+}
+
+@media (max-width: 576px) {
+  .map-height {
+    height: 195px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */
