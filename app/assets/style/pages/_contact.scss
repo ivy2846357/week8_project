@@ -1,0 +1,9 @@
+.map-height {
+    height: 450px;
+}
+
+@media (max-width: 576px) {
+    .map-height {
+        height: 195px;
+    }
+}

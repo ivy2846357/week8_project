@@ -38,3 +38,9 @@
         max-width: 80%;
     }
 }
+
+@media (max-width:576px) {
+    .modal-dialog-width {
+        max-width: 100%;
+    }
+}
