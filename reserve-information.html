@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker-bs4.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -50,7 +49,7 @@
     </div>
   </nav>
 
-  <div class="icon-navbar position-fixed" style="z-index: 1100;">
+  <div class="icon-navbar position-fixed d-none d-md-block" style="z-index: 1100;">
     <ul class="list-unstyled d-flex flex-column justify-content-center align-items-center me-3">
       <li class="mb-2 rounded-sm">
         <a href="#" class="text-dark-brick-red h4"><i class="fab fa-facebook"></i></a>
@@ -87,19 +86,19 @@
     </h6>
 </div>
 
-<form class="container needs-validation" novalidate>
+<form class="container">
     <div class="row d-flex justify-content-center">
         <div class="col-6 col-lg-4 text-gray">
             <div class="form-group mb-6">
                 <h6 class="mb-3">1. 是否接觸過瑜珈?</h6>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                        value="option1" required>
+                        value="option1">
                     <label class="form-check-label" for="inlineRadio1">是</label>
                 </div>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2" required>
+                        value="option2">
                     <label class="form-check-label" for="inlineRadio2">否</label>
                 </div>
             </div>
@@ -107,27 +106,27 @@
             <div class="form-group mb-6">
                 <h6 class="mb-3">2. 想改善的生活問題?</h6>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" required>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                     <label class="form-check-label me-3" for="inlineCheckbox1">肌耐力不足</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" required>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                     <label class="form-check-label me-3" for="inlineCheckbox2">柔軟度不佳</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" required>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                     <label class="form-check-label" for="inlineCheckbox2">壓力大</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" required>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                     <label class="form-check-label me-6" for="inlineCheckbox2">姿勢不正</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" required>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                     <label class="form-check-label me-3" for="inlineCheckbox2">睡眠品質差</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" required>
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                     <label class="form-check-label" for="inlineCheckbox2">注意力不足</label>
                 </div>
             </div>
@@ -136,23 +135,23 @@
                 <h6 class="mb-3">3. 每週累積運動量約為多少？</h6>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                        value="option1" required>
+                        value="option1">
                     <label class="form-check-label" for="inlineRadio1">150 分鐘以上</label>
                 </div>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2" required>
+                        value="option2">
                     <label class="form-check-label" for="inlineRadio2">75~150 分鐘</label>
                 </div>
                 <br>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2" required>
+                        value="option2">
                     <label class="form-check-label" for="inlineRadio2">30~75 分鐘</label>
                 </div>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2" required>
+                        value="option2">
                     <label class="form-check-label" for="inlineRadio2">30 分鐘以下</label>
                 </div>
             </div>
@@ -161,7 +160,6 @@
                 <h6 class="mb-1">4. 上課預約報到日</h6>
                 <h6 class="mb-2">若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</h6>
                 <div class="d-block">
-                    <!-- <input type="text" name="date-picker" placeholder="MM/DD/YYYY"> -->
                     <input type="date" placeholder="MM/DD/YYYY">
                 </div>
             </div>
@@ -171,16 +169,16 @@
                 <div class="row mb-3">
                     <div class="col">
                         <label for="name" class="mb-1">姓名</label>
-                        <input type="text" class="form-control rounded-sm" placeholder="請輸入您的姓名" required>
+                        <input type="text" class="form-control rounded-sm" placeholder="請輸入您的姓名">
                     </div>
                     <div class="col">
                         <label for="name" class="mb-1">年齡</label>
-                        <input type="text" class="form-control rounded-sm" placeholder="請輸入您的年齡" required>
+                        <input type="text" class="form-control rounded-sm" placeholder="請輸入您的年齡">
                     </div>
                 </div>
                 <div class="form-group col-2 mb-3">
                     <label for="exampleFormControlSelect1" class="mb-1">性別</label>
-                    <select class="form-control" id="exampleFormControlSelect1" required>
+                    <select class="form-control" id="exampleFormControlSelect1">
                         <option>男生</option>
                         <option>女生</option>
                     </select>
@@ -189,13 +187,13 @@
                 <div class="form-group mb-3">
                     <label for="exampleInputEmail1" class="mb-1">電子信箱</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="email@example.com" required>
+                        placeholder="email@example.com">
                 </div>
 
                 <div class="form-group mb-6">
                     <label for="exampleInputPhone" class="mb-1">手機號碼</label>
                     <input type="tel" class="form-control" id="exampleInputPhone" aria-describedby="phoneHelp"
-                        placeholder="0912-345-678" required>
+                        placeholder="0912-345-678">
                 </div>
 
                 <a href="reserve-success.html" class="btn btn-dark-brick-red text-white d-block py-2 send-btn">送出</a>
@@ -212,7 +210,7 @@
             <h3 class="text-white mb-2 mb-lg-0">現在訂閱，獲得課程優惠碼！</h3>
           </div>
         </div>
-        <div class="col-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Username"
               aria-describedby="basic-addon1">
@@ -220,26 +218,24 @@
           </div>
         </div>
       </div>
-      <div class="footer-body d-flex justify-content-between py-6">
-        <div class="footer-item">
+      <div class="footer-body d-flex flex-column py-6">
+        <div class="footer-item d-flex justify-content-between">
           <a href="index.html">
             <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
           </a>
-          <ul class="sub-navbar list-unstyled">
-            <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
-            <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
-            <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
-          </ul>
-        </div>
-        <div class="footer-item d-flex">
-          <p class="text-white align-self-end">© 2021. All Rights Reserved.</p>
-        </div>
-        <div class="footer-item">
           <ul class="footer-icon list-unstyled d-flex">
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#" class="text-white h4"><i class="fab fa-line"></i></a></li>
           </ul>
+        </div>
+        <div class="footer-item d-flex flex-column flex-md-row align-items-md-end">
+          <ul class="list-unstyled m-0">
+            <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
+            <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
+            <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
+          </ul>
+          <p class="text-white offset-md-3 ps-md-3 offset-lg-4 ps-lg-6 mb-2">© 2021. All Rights Reserved.</p>
         </div>
       </div>
     </div>
@@ -250,7 +246,6 @@
   <script src="./assets/js/all.js"></script>
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({

@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker-bs4.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -50,7 +49,7 @@
     </div>
   </nav>
 
-  <div class="icon-navbar position-fixed" style="z-index: 1100;">
+  <div class="icon-navbar position-fixed d-none d-md-block" style="z-index: 1100;">
     <ul class="list-unstyled d-flex flex-column justify-content-center align-items-center me-3">
       <li class="mb-2 rounded-sm">
         <a href="#" class="text-dark-brick-red h4"><i class="fab fa-facebook"></i></a>
@@ -83,59 +82,134 @@
 
 <div class="course-select">
     <div class="container">
-        <ul class="list-unstyled row">
-            <li class="col-4" data-aos="fade-up">
-                <div class="card rounded-lg course-card">
-                    <img class="card-img-top card-img bg-cover d-block"
-                        style="background-image: url(./assets/images/woman\ in\ white\ tank\ top\ and\ white\ leggings\ bending\ her\ body.jpg);">
-                    <div class="card-body p-4 d-flex flex-column justify-content-between">
-                        <div class="card-word">
-                            <h5 class="card-title text-dark-brick-red text-center">首次體驗</h5>
-                            <h5 class="card-title text-brick-red text-center">NT $450 / 次</h5>
-                            <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</h6>
-                        </div>
-                        <div class="card-footer border-0 bg-transparent p-0">
-                            <a href="reserve-class-select.html" role="button"
-                                class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="col-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card rounded-lg course-card">
-                    <img class="card-img-top card-img bg-cover d-block"
-                        style="background-image: url(./assets/images/woman\ performing\ yoga.jpg);">
-                    <div class="card-body p-4 d-flex flex-column justify-content-between">
-                        <div class="card-word">
-                            <h5 class="card-title text-dark-brick-red text-center">短期體驗</h5>
-                            <h5 class="card-title text-brick-red text-center">NT $1800 / 月</h5>
-                            <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。</h6>
-                        </div>
-                        <div class="card-footer border-0 bg-transparent p-0">
-                            <a href="#" role="button"
-                                class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
+        <div class="d-none d-lg-block">
+            <ul class="list-unstyled row">
+                <li class="col-4" data-aos="fade-up">
+                    <div class="card rounded-lg course-card">
+                        <img class="card-img-top card-img bg-cover d-block"
+                            style="background-image: url(./assets/images/woman\ in\ white\ tank\ top\ and\ white\ leggings\ bending\ her\ body.jpg);">
+                        <div class="card-body p-4 d-flex flex-column justify-content-between">
+                            <div class="card-word">
+                                <h5 class="card-title text-dark-brick-red text-center">首次體驗</h5>
+                                <h5 class="card-title text-brick-red text-center">NT $450 / 次</h5>
+                                <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</h6>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent p-0">
+                                <a href="reserve-class-select.html" role="button"
+                                    class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </li>
-            <li class="col-4" data-aos="fade-up" data-aos-delay="400">
-                <div class="card rounded-lg course-card">
-                    <img class="card-img-top card-img bg-cover d-block"
-                        style="background-image: url(./assets/images/woman\ in\ blue\ leggings\ and\ black\ tank\ top\ doing\ yoga.jpg);">
-                    <div class="card-body p-4 d-flex flex-column justify-content-between">
-                        <div class="card-word">
-                            <h5 class="card-title text-dark-brick-red text-center">長期體驗</h5>
-                            <h5 class="card-title text-brick-red text-center">NT $5600 / 季</h5>
-                            <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。</h6>
-                        </div>
-                        <div class="card-footer border-0 bg-transparent p-0">
-                            <a href="#" role="button"
-                                class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
+                </li>
+                <li class="col-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card rounded-lg course-card">
+                        <img class="card-img-top card-img bg-cover d-block"
+                            style="background-image: url(./assets/images/woman\ performing\ yoga.jpg);">
+                        <div class="card-body p-4 d-flex flex-column justify-content-between">
+                            <div class="card-word">
+                                <h5 class="card-title text-dark-brick-red text-center">短期體驗</h5>
+                                <h5 class="card-title text-brick-red text-center">NT $1800 / 月</h5>
+                                <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。</h6>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent p-0">
+                                <a href="#" role="button"
+                                    class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </li>
-        </ul>
+                </li>
+                <li class="col-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card rounded-lg course-card">
+                        <img class="card-img-top card-img bg-cover d-block"
+                            style="background-image: url(./assets/images/woman\ in\ blue\ leggings\ and\ black\ tank\ top\ doing\ yoga.jpg);">
+                        <div class="card-body p-4 d-flex flex-column justify-content-between">
+                            <div class="card-word">
+                                <h5 class="card-title text-dark-brick-red text-center">長期體驗</h5>
+                                <h5 class="card-title text-brick-red text-center">NT $5600 / 季</h5>
+                                <h6 class="card-text text-dark-brick-red">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。</h6>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent p-0">
+                                <a href="#" role="button"
+                                    class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="d-lg-none">
+            <ul class="list-unstyled row">
+                <li class="col-12">
+                    <div class="card mb-4 rounded-lg overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-md-6 rounded-lg">
+                                <img class="card-img-top bg-cover d-block h-100"
+                                    style="background-image: url(./assets/images/woman\ in\ white\ tank\ top\ and\ white\ leggings\ bending\ her\ body.jpg);">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body p-4">
+                                    <div class="card-word">
+                                        <h5 class="card-title text-dark-brick-red mb-1">首次體驗</h5>
+                                        <h5 class="card-title text-brick-red mb-2">NT $450 / 次</h5>
+                                        <h6 class="card-text text-dark-brick-red mb-4">分基礎、中級、高級可以選擇。初次至 DOYOGA
+                                            上課建議選擇此方案。
+                                        </h6>
+                                    </div>
+                                    <div class="card-footer border-0 bg-transparent p-0">
+                                        <a href="reserve-class-select.html" role="button"
+                                            class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4 rounded-lg overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img class="card-img-top bg-cover d-block h-100"
+                                    style="background-image: url(./assets/images/woman\ performing\ yoga.jpg);">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body p-4">
+                                    <div class="card-word">
+                                        <h5 class="card-title text-dark-brick-red mb-1">短期體驗</h5>
+                                        <h5 class="card-title text-brick-red mb-2">NT $1800 / 月</h5>
+                                        <h6 class="card-text text-dark-brick-red mb-4">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。
+                                        </h6>
+                                    </div>
+                                    <div class="card-footer border-0 bg-transparent p-0">
+                                        <a href="#" role="button"
+                                            class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-md-6 rounded-lg">
+                                <img class="card-img-top bg-cover d-block h-100"
+                                    style="background-image: url(./assets/images/woman\ in\ blue\ leggings\ and\ black\ tank\ top\ doing\ yoga.jpg);">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body p-4">
+                                    <div class="card-word">
+                                        <h5 class="card-title text-dark-brick-red mb-1">長期體驗</h5>
+                                        <h5 class="card-title text-brick-red mb-2">NT $5600 / 季</h5>
+                                        <h6 class="card-text text-dark-brick-red mb-4">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。
+                                        </h6>
+                                    </div>
+                                    <div class="card-footer border-0 bg-transparent p-0">
+                                        <a href="#" role="button"
+                                            class="btn btn-dark-brick-red text-white d-block py-2 stretched-link">選擇課程</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -162,7 +236,7 @@
             <h3 class="text-white mb-2 mb-lg-0">現在訂閱，獲得課程優惠碼！</h3>
           </div>
         </div>
-        <div class="col-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Username"
               aria-describedby="basic-addon1">
@@ -170,26 +244,24 @@
           </div>
         </div>
       </div>
-      <div class="footer-body d-flex justify-content-between py-6">
-        <div class="footer-item">
+      <div class="footer-body d-flex flex-column py-6">
+        <div class="footer-item d-flex justify-content-between">
           <a href="index.html">
             <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
           </a>
-          <ul class="sub-navbar list-unstyled">
-            <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
-            <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
-            <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
-          </ul>
-        </div>
-        <div class="footer-item d-flex">
-          <p class="text-white align-self-end">© 2021. All Rights Reserved.</p>
-        </div>
-        <div class="footer-item">
           <ul class="footer-icon list-unstyled d-flex">
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#" class="text-white h4"><i class="fab fa-line"></i></a></li>
           </ul>
+        </div>
+        <div class="footer-item d-flex flex-column flex-md-row align-items-md-end">
+          <ul class="list-unstyled m-0">
+            <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
+            <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
+            <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
+          </ul>
+          <p class="text-white offset-md-3 ps-md-3 offset-lg-4 ps-lg-6 mb-2">© 2021. All Rights Reserved.</p>
         </div>
       </div>
     </div>
@@ -200,7 +272,6 @@
   <script src="./assets/js/all.js"></script>
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({

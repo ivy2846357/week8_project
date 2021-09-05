@@ -13574,6 +13574,12 @@ footer .footer-title .input-group {
   background-size: cover;
 }
 
+@media (max-width: 576px) {
+  .banner {
+    background-position: 30% 110%;
+  }
+}
+
 .advantage-card {
   height: 420px;
 }
@@ -13581,6 +13587,12 @@ footer .footer-title .input-group {
 @media (max-width: 992px) {
   .advantage-card {
     height: 252px;
+  }
+}
+
+@media (max-width: 576px) {
+  .advantage-card {
+    height: 420px;
   }
 }
 
@@ -13658,7 +13670,13 @@ footer .footer-title .input-group {
 }
 
 .teacher-card-item-lg {
-  width: 110%;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .teacher-card-lg {
+    width: 110%;
+  }
 }
 
 .icon-navbar {
@@ -13718,6 +13736,12 @@ footer .footer-title .input-group {
   height: 96px;
   top: -12%;
   left: 38%;
+}
+
+@media (max-width: 992px) {
+  .modal-dialog-width {
+    max-width: 80%;
+  }
 }
 
 .class-notice {

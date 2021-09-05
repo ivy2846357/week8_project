@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker-bs4.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -50,7 +49,7 @@
     </div>
   </nav>
 
-  <div class="icon-navbar position-fixed" style="z-index: 1100;">
+  <div class="icon-navbar position-fixed d-none d-md-block" style="z-index: 1100;">
     <ul class="list-unstyled d-flex flex-column justify-content-center align-items-center me-3">
       <li class="mb-2 rounded-sm">
         <a href="#" class="text-dark-brick-red h4"><i class="fab fa-facebook"></i></a>
@@ -138,7 +137,7 @@
             <h3 class="text-white mb-2 mb-lg-0">現在訂閱，獲得課程優惠碼！</h3>
           </div>
         </div>
-        <div class="col-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Username"
               aria-describedby="basic-addon1">
@@ -146,26 +145,24 @@
           </div>
         </div>
       </div>
-      <div class="footer-body d-flex justify-content-between py-6">
-        <div class="footer-item">
+      <div class="footer-body d-flex flex-column py-6">
+        <div class="footer-item d-flex justify-content-between">
           <a href="index.html">
             <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
           </a>
-          <ul class="sub-navbar list-unstyled">
-            <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
-            <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
-            <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
-          </ul>
-        </div>
-        <div class="footer-item d-flex">
-          <p class="text-white align-self-end">© 2021. All Rights Reserved.</p>
-        </div>
-        <div class="footer-item">
           <ul class="footer-icon list-unstyled d-flex">
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#" class="text-white h4"><i class="fab fa-line"></i></a></li>
           </ul>
+        </div>
+        <div class="footer-item d-flex flex-column flex-md-row align-items-md-end">
+          <ul class="list-unstyled m-0">
+            <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
+            <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
+            <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
+          </ul>
+          <p class="text-white offset-md-3 ps-md-3 offset-lg-4 ps-lg-6 mb-2">© 2021. All Rights Reserved.</p>
         </div>
       </div>
     </div>
@@ -176,7 +173,6 @@
   <script src="./assets/js/all.js"></script>
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
