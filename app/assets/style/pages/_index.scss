@@ -1,3 +1,4 @@
+//首圖設定
 .banner {
     width: 100%;
     height: 582px;
@@ -6,12 +7,14 @@
     background-size: cover;
 }
 
+//手機版首圖設定
 @media (max-width: 576px) {
     .banner {
         background-position: 30% 110%;
     }
 }
 
+//感受身心 活在當下 卡片高度設定
 .advantage-card {
     height: 420px;
 }
@@ -28,8 +31,10 @@
     }
 }
 
+//頂尖師資介紹
 .teacher-info {
 
+    //左側圖片設定
     .card-img {
         width: 100%;
         height: 628px;
@@ -37,12 +42,39 @@
         background-position: 0 90%;
     }
 
+    //老師頭像圖片
     .teacher-pic {
         width: 94px;
         height: 94px;
     }
+
+    .teacher-card {
+        top: 0;
+        right: 0;
+
+        &-item {
+            width: 100%;
+
+            &-lg {
+                width: 110%;
+            }
+        }
+    }
+
+    @media (max-width: 576px) {
+        .teacher-card {
+            &-item {
+                width: 100%;
+
+                &-lg {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
+//舒適空間 靜心放鬆 圖片設定
 .environment-introduct {
     .card-img-lg {
         height: 444px;
@@ -65,16 +97,19 @@
     }
 }
 
+//精心設計 課程多元 平板/手機板圖片設定
 .course-introduct {
     .card-img {
         height: 150px;
     }
 }
 
+//精心設計 課程多元 電腦板圖片設定
 .swiper-img {
     height: 445px;
 }
 
+//方案選擇
 .course-select {
 
     .course-card {
@@ -88,6 +123,7 @@
     }
 }
 
+//聽聽他們怎麼說
 .recommend {
 
     .recommend-card {
@@ -102,36 +138,5 @@
 
     .mb-11 {
         margin-bottom: 11px;
-    }
-}
-
-.teacher-card {
-    top: 0;
-    right: 0;
-
-    &-item {
-        width: 100%;
-
-        &-lg {
-            width: 100%;
-        }
-    }
-}
-
-@media (max-width: 576px) {
-    .teacher-card {
-        &-lg {
-            width: 110%;
-        }
-    }
-}
-
-.icon-navbar {
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-
-    .fab {
-        font-size: 48px;
     }
 }

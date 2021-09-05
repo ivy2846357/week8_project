@@ -7,6 +7,7 @@ current: index
 
 <h3 class="mt-9 mb-6 text-dark-brick-red text-center">課程介紹</h3>
 
+<!-- 限定課程介紹 -->
 <div class="container special-class mb-9">
     <div class="row" data-aos="fade-up">
         <div class="offset-lg-1 col-12 col-sm-6 mb-2 mb-sm-0">
@@ -34,6 +35,7 @@ current: index
     </div>
 </div>
 
+<!-- 課程搜尋 -->
 <div class="class-select bg-brick-red py-3" data-aos="fade-up">
     <div class="container">
         <div class="row">
@@ -61,9 +63,11 @@ current: index
     </div>
 </div>
 
+<!-- 課程介紹 -->
 <div class="class-information mt-7">
     <div class="container">
         <div class="row">
+            <!-- 課程、老師介紹 -->
             <div class="col-12 col-lg-9">
                 <div class="row">
                     <div class="col-12 col-sm-6 col-lg-7" data-aos="fade-up" data-aos-delay="200">
@@ -178,8 +182,9 @@ current: index
                     </div>
                 </div>
             </div>
+            <!-- 上課須知 -->
             <div class="offset-sm-3 offset-lg-0 col-12 col-sm-6 col-lg-3" data-aos="fade-up">
-                <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-center align-items-lg-start">
                     <h5 class="text-dark-brick-red">DOYOGA 上課須知：</h5>
                     <ul class="text-dark-brick-red list-unstyled">
                         <li class="mb-1">
@@ -205,12 +210,13 @@ current: index
 
     <hr>
 
+    <!-- 師資介紹 -->
     <h3 class="mt-7 mb-7 text-center text-dark-brick-red">師資介紹</h3>
 
     <div class="teacher-information">
         <div class="container">
             <div class="row">
-                <!-- Swiper -->
+                <!-- 電腦版、平版 swiper設定 -->
                 <div class="d-none d-sm-block">
                     <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events"
                         style="padding: 40px 0 113px 0;">
@@ -298,6 +304,7 @@ current: index
 
                     </div>
                 </div>
+                <!-- 手機板設定 -->
                 <div class="d-sm-none">
                     <div class="row">
                         <div class="col-12 mb-9" data-aos="fade-up">
@@ -376,34 +383,35 @@ current: index
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-width">
-                <div class="modal-content container-lg py-6 py-sm-9 px-8 bg-brick-red rounded-lg">
-                    <div class="row">
-                        <div class="col-12 col-sm-6">
-                            <div class="d-flex justify-content-end d-sm-none">
-                                <button type="button" class="btn-close mb-3" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="bg-cover rounded-lg w-100"
-                                style="background-image: url(./assets/images/photo-1540206276207-3af25c08abc4.jpeg); height: 418px;">
-                            </div>
+    <!-- Modal 課程彈跳視窗 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-width">
+            <div class="modal-content container-lg py-6 py-sm-9 px-8 bg-brick-red rounded-lg">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="d-flex justify-content-end d-sm-none">
+                            <button type="button" class="btn-close mb-3" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
                         </div>
-                        <div class="col-12 col-sm-6 px-3 px-lg-7 py-7">
-                            <h3 class="text-white">基礎 Basic</h3>
-                            <div class="d-flex align-items-baseline mb-3">
-                                <h6 class="text-white me-2">授課老師：Carol Tang</h6>
-                                <div class="badge bg-dark-brick-red text-white rounded-lg px-6 py-2">60 min</div>
-                            </div>
-                            <h6 class="text-white mb-3">使用掛布懸掛在半空，進行哈達瑜珈體位法練習 藉由地心引力的重力原理，鍛鍊核心肌群，舒緩脊椎壓力。<br>
-                                訓練身體協調性，深層放鬆身體。<br>
-                                課堂裡老師會視同學狀況安排教導倒立動作，對於不敢嘗試倒立的同學來說，藉由掛布的支持與保護，加上老師細心指導，讓同學能更快掌握。</h6>
-                            <a href="reserve-class.html"
-                                class="btn btn-beige text-dark-brick-red d-inline-block py-2 px-3">立即預約</a>
+                        <div class="bg-cover rounded-lg w-100"
+                            style="background-image: url(./assets/images/photo-1540206276207-3af25c08abc4.jpeg); height: 418px;">
                         </div>
+                    </div>
+                    <div class="col-12 col-sm-6 px-3 px-lg-7 py-7">
+                        <h3 class="text-white">基礎 Basic</h3>
+                        <div class="d-flex align-items-baseline mb-3">
+                            <h6 class="text-white me-2">授課老師：Carol Tang</h6>
+                            <div class="badge bg-dark-brick-red text-white rounded-lg px-6 py-2">60 min</div>
+                        </div>
+                        <h6 class="text-white mb-3">使用掛布懸掛在半空，進行哈達瑜珈體位法練習 藉由地心引力的重力原理，鍛鍊核心肌群，舒緩脊椎壓力。<br>
+                            訓練身體協調性，深層放鬆身體。<br>
+                            課堂裡老師會視同學狀況安排教導倒立動作，對於不敢嘗試倒立的同學來說，藉由掛布的支持與保護，加上老師細心指導，讓同學能更快掌握。</h6>
+                        <a href="reserve-class.html"
+                            class="btn btn-beige text-dark-brick-red d-inline-block py-2 px-3">立即預約</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
