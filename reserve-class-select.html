@@ -6,13 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DOYOGA - 瑜珈方案選擇 - 課程選擇</title>
+  <!-- Font Awesome icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
+  <!-- swiper CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- AOS CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
+  <!-- 導覽列 -->
   <nav class="navbar navbar-expand-lg navbar-light bg-beige py-4">
     <div class="container">
       <a class="navbar-brand me-9 pe-8 d-lg-none" href="index.html">
@@ -49,6 +53,7 @@
     </div>
   </nav>
 
+  <!-- 右側 icon 列表 -->
   <div class="icon-navbar position-fixed d-none d-md-block" style="z-index: 1100;">
     <ul class="list-unstyled d-flex flex-column justify-content-center align-items-center me-3">
       <li class="mb-2 rounded-sm">
@@ -66,6 +71,7 @@
   
 <h2 class="reserve-title mt-9 mb-4 text-dark-brick-red text-center">立即預約</h2>
 
+<!-- 流程標籤 -->
 <div class="container mb-6">
     <div class="row justify-content-center">
         <div class="col-4 col-sm-3 col-lg-2">
@@ -82,6 +88,7 @@
 
 <div class="course-select">
     <div class="container">
+        <!-- 直式課程選單 -->
         <div class="d-block d-sm-none d-lg-block">
             <ul class="list-unstyled row">
                 <li class="col-12 col-sm-4">
@@ -137,6 +144,7 @@
                 </li>
             </ul>
         </div>
+        <!-- 橫式課程選單 -->
         <div class="d-none d-sm-block d-lg-none">
             <div class="row">
                 <div class="col-12">
@@ -166,86 +174,15 @@
                 </div>
             </div>
         </div>
+        <!-- 課程階級 電腦版、平板設定 -->
         <div class="card card-body border-0 p-0 d-none d-sm-block">
             <div class="row">
                 <div class="col-4 text-center">
                     <h6 class="text-dark-brick-red py-6"><i class="fas fa-sort-down"></i></h6>
                 </div>
             </div>
-            <div class="bg-dark-brick-red px-7 pb-9 mb-7">
-                <h3 class="text-white text-center mt-7 mb-6" data-aos="fade-up">選擇課程階級</h3>
-                <!-- <div class="row">
-                    <div class="col" data-aos="fade-up">
-                        <a href="#">
-                            <div class="card bg-dark-brick-red border-0">
-                                <div
-                                    class="card-body bg-brick-red text-white rounded-lg p-4 border border-white border-4">
-                                    <div class="d-flex justify-content-between">
-                                        <h3 class="card-title">基礎 Basic
-                                        </h3>
-                                        <h3><i class="far fa-check-circle"></i></h3>
-                                    </div>
-                                    <div class="d-flex align-items-baseline mb-3">
-                                        <h6 class="me-2">基礎課程</h6>
-                                        <div class="badge bg-dark-brick-red text-white rounded-lg px-6 py-2">60 min
-                                        </div>
-                                    </div>
-                                    <ul class="card-text list-unstyled">
-                                        <li class="mb-1">・入體位法動作解說</li>
-                                        <li class="mb-1">・瑜珈基礎動作、順位</li>
-                                        <li class="mb-1">・適合任何階段練習者</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col" data-aos="fade-up" data-aos-delay="200">
-                        <a href="#">
-                            <div class="card bg-dark-brick-red border-0">
-                                <div class="card-body bg-brick-red text-white rounded-lg p-4">
-                                    <div class="d-flex justify-content-between">
-                                        <h3 class="card-title">中階 Intermediate
-                                        </h3>
-                                        <h3><i class="far fa-check-circle text-white-50"></i></h3>
-                                    </div>
-                                    <div class="d-flex align-items-baseline mb-3">
-                                        <h6 class="me-2">艾揚格、哈達、寰宇</h6>
-                                        <div class="badge bg-dark-brick-red text-white rounded-lg px-6 py-2">60 min
-                                        </div>
-                                    </div>
-                                    <ul class="card-text list-unstyled">
-                                        <li class="mb-1">・刺激身體七個層次為核心</li>
-                                        <li class="mb-1">・結合流暢體位法練習、呼吸、觀想</li>
-                                        <li class="mb-1">・適合半年以上練習者</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col" data-aos="fade-up" data-aos-delay="400">
-                        <a href="#">
-                            <div class="card bg-dark-brick-red border-0">
-                                <div class="card-body bg-brick-red text-white rounded-lg p-4">
-                                    <div class="d-flex justify-content-between">
-                                        <h3 class="card-title">高階 Advanced
-                                        </h3>
-                                        <h3><i class="far fa-check-circle text-white-50"></i></h3>
-                                    </div>
-                                    <div class="d-flex align-items-baseline mb-3">
-                                        <h6 class="me-2">阿斯坦加、陰陽</h6>
-                                        <div class="badge bg-dark-brick-red text-white rounded-lg px-6 py-2">60 min
-                                        </div>
-                                    </div>
-                                    <ul class="card-text list-unstyled">
-                                        <li class="mb-1">・充分打開身體每個部位</li>
-                                        <li class="mb-1">・顯著提升力量與柔軟度</li>
-                                        <li class="mb-1">・適合一年以上練習者</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div> -->
+            <div class="bg-dark-brick-red px-7 py-4 mb-7">
+                <h3 class="text-white text-center mb-6" data-aos="fade-up">選擇課程階級</h3>
                 <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events">
                     <div class="swiper-wrapper m-0" id="swiper-wrapper-b8818035c4b101a4f" aria-live="polite">
                         <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 3"
@@ -324,9 +261,12 @@
                     </div>
                 </div>
             </div>
-            <h6 class="text-dark-brick-red text-center mb-1">您選擇的是</h6>
-            <h5 class="text-dark-brick-red text-center mb-3 select-border mx-auto">首次體驗課程-基礎</h5>
+            <div class="d-flex flex-column align-items-center" data-aos="fade-up">
+                <h6 class="text-dark-brick-red mb-1">您選擇的是</h6>
+                <h5 class="text-dark-brick-red mb-3 select-border">首次體驗課程-基礎</h5>
+            </div>
         </div>
+        <!-- 課程階級 手機板設定 -->
         <div class="card card-body border-0 p-0 d-sm-none">
             <div class="row">
                 <div class="col-4 text-center">
@@ -408,12 +348,13 @@
                     </div>
                 </div>
             </div>
-            <h6 class="text-dark-brick-red text-center mb-1">您選擇的是</h6>
-            <h5 class="text-dark-brick-red text-center mb-3 select-border mx-auto">首次體驗課程-基礎</h5>
+            <h6 class="text-dark-brick-red text-center mb-1" data-aos="fade-up">您選擇的是</h6>
+            <h5 class="text-dark-brick-red text-center mb-3 select-border mx-auto" data-aos="fade-up">首次體驗課程-基礎</h5>
         </div>
     </div>
 </div>
 
+<!-- 預約須知 -->
 <div class="container text-dark-brick-red" data-aos="fade-up">
     <div class="row justify-content-center">
         <div class="col-12 col-sm-8 col-lg-5">
@@ -429,6 +370,7 @@
     </div>
 </div>
 
+<!-- 繼續預約按鈕 -->
 <div class="container" data-aos="fade-up">
     <div class="row">
         <div class="col-12 col-sm-4 mt-6 mx-auto" style="margin-bottom: 104px;">
@@ -437,8 +379,10 @@
     </div>
 </div>
 
+  <!-- 頁尾 -->
   <footer class="footer bg-dark-brick-red">
     <div class="container">
+      <!-- 訂閱資訊 -->
       <div class="row py-6 border-bottom align-items-center">
         <div class="col-12 col-lg-8">
           <div class="d-flex justify-content-between align-items-lg-center flex-column flex-lg-row">
@@ -453,11 +397,14 @@
           </div>
         </div>
       </div>
+      <!-- 頁尾導覽列 -->
       <div class="footer-body d-flex flex-column py-6">
         <div class="footer-item d-flex justify-content-between">
+          <!-- LOGO -->
           <a href="index.html">
             <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
           </a>
+          <!-- icon 連結 -->
           <ul class="footer-icon list-unstyled d-flex">
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-instagram"></i></a></li>
@@ -465,23 +412,26 @@
           </ul>
         </div>
         <div class="footer-item d-flex flex-column flex-md-row align-items-md-end">
+          <!-- 導覽列 -->
           <ul class="list-unstyled m-0">
             <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
             <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
             <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
           </ul>
+          <!-- 版權文字 -->
           <p class="text-white offset-md-3 ps-md-3 offset-lg-4 ps-lg-6 mb-2">© 2021. All Rights Reserved.</p>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
-  <!-- Swiper JS -->
+  <!-- swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- AOS JS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- AOS 動畫設定 -->
   <script>
     AOS.init({
       // Global settings:

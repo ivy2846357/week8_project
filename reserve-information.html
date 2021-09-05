@@ -6,13 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DOYOGA - 個人資料填寫</title>
+  <!-- Font Awesome icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
+  <!-- swiper CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- AOS CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
+  <!-- 導覽列 -->
   <nav class="navbar navbar-expand-lg navbar-light bg-beige py-4">
     <div class="container">
       <a class="navbar-brand me-9 pe-8 d-lg-none" href="index.html">
@@ -49,6 +53,7 @@
     </div>
   </nav>
 
+  <!-- 右側 icon 列表 -->
   <div class="icon-navbar position-fixed d-none d-md-block" style="z-index: 1100;">
     <ul class="list-unstyled d-flex flex-column justify-content-center align-items-center me-3">
       <li class="mb-2 rounded-sm">
@@ -66,6 +71,7 @@
   
 <h2 class="reserve-title mt-9 mb-4 text-dark-brick-red text-center">立即預約</h2>
 
+<!-- 流程標籤 -->
 <div class="container mb-6">
     <div class="row justify-content-center">
         <div class="col-4 col-sm-3 col-lg-2">
@@ -80,15 +86,18 @@
     </div>
 </div>
 
+<!-- 選擇課程 -->
 <div class="text-center mb-6">
     <h6 class="text-gray me-3">您選擇的是
         <span class="h5 text-brick-red">首次體驗課程-基礎</span>
     </h6>
 </div>
 
+<!-- 表單內容 -->
 <form class="container">
     <div class="row d-flex justify-content-center">
         <div class="col-12 col-sm-6 col-lg-4 text-gray">
+            <!-- 第一題 -->
             <div class="form-group mb-6">
                 <h6 class="mb-3">1. 是否接觸過瑜珈?</h6>
                 <div class="form-check form-check-inline">
@@ -103,6 +112,7 @@
                 </div>
             </div>
 
+            <!-- 第二題 -->
             <div class="form-group mb-6">
                 <h6 class="mb-3">2. 想改善的生活問題?</h6>
                 <div class="form-check form-check-inline">
@@ -131,6 +141,7 @@
                 </div>
             </div>
 
+            <!-- 第三題 -->
             <div class="form-group mb-6">
                 <h6 class="mb-3">3. 每週累積運動量約為多少？</h6>
                 <div class="form-check form-check-inline">
@@ -156,6 +167,7 @@
                 </div>
             </div>
 
+            <!-- 第四題 -->
             <div class="form-group mb-6">
                 <h6 class="mb-1">4. 上課預約報到日</h6>
                 <h6 class="mb-2">若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</h6>
@@ -164,6 +176,7 @@
                 </div>
             </div>
 
+            <!-- 第五題 -->
             <div class="form-group mb-6">
                 <h6 class="mb-3">5. 填寫基本資料，完成預約後會寄送通知至電子信箱</h6>
                 <div class="row mb-3">
@@ -196,14 +209,17 @@
                         placeholder="0912-345-678">
                 </div>
 
-                <a href="reserve-success.html" class="btn btn-dark-brick-red text-white d-block py-2 send-btn">送出</a>
+                <a href="reserve-success.html" class="btn btn-dark-brick-red text-white d-block py-2"
+                    style="margin-bottom: 116px;">送出</a>
             </div>
         </div>
     </div>
 </form>
 
+  <!-- 頁尾 -->
   <footer class="footer bg-dark-brick-red">
     <div class="container">
+      <!-- 訂閱資訊 -->
       <div class="row py-6 border-bottom align-items-center">
         <div class="col-12 col-lg-8">
           <div class="d-flex justify-content-between align-items-lg-center flex-column flex-lg-row">
@@ -218,11 +234,14 @@
           </div>
         </div>
       </div>
+      <!-- 頁尾導覽列 -->
       <div class="footer-body d-flex flex-column py-6">
         <div class="footer-item d-flex justify-content-between">
+          <!-- LOGO -->
           <a href="index.html">
             <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
           </a>
+          <!-- icon 連結 -->
           <ul class="footer-icon list-unstyled d-flex">
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-instagram"></i></a></li>
@@ -230,23 +249,26 @@
           </ul>
         </div>
         <div class="footer-item d-flex flex-column flex-md-row align-items-md-end">
+          <!-- 導覽列 -->
           <ul class="list-unstyled m-0">
             <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
             <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
             <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
           </ul>
+          <!-- 版權文字 -->
           <p class="text-white offset-md-3 ps-md-3 offset-lg-4 ps-lg-6 mb-2">© 2021. All Rights Reserved.</p>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
-  <!-- Swiper JS -->
+  <!-- swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- AOS JS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- AOS 動畫設定 -->
   <script>
     AOS.init({
       // Global settings:

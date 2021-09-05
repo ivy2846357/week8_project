@@ -6,13 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DOYOGA - 瑜珈方案選擇</title>
+  <!-- Font Awesome icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
+  <!-- swiper CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- AOS CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
+  <!-- 導覽列 -->
   <nav class="navbar navbar-expand-lg navbar-light bg-beige py-4">
     <div class="container">
       <a class="navbar-brand me-9 pe-8 d-lg-none" href="index.html">
@@ -49,6 +53,7 @@
     </div>
   </nav>
 
+  <!-- 右側 icon 列表 -->
   <div class="icon-navbar position-fixed d-none d-md-block" style="z-index: 1100;">
     <ul class="list-unstyled d-flex flex-column justify-content-center align-items-center me-3">
       <li class="mb-2 rounded-sm">
@@ -66,6 +71,7 @@
   
 <h2 class="reserve-title mt-9 mb-4 text-dark-brick-red text-center">立即預約</h2>
 
+<!-- 流程標籤 -->
 <div class="container mb-6">
     <div class="row justify-content-center">
         <div class="col-4 col-sm-3 col-lg-2">
@@ -82,7 +88,8 @@
 
 <div class="course-select">
     <div class="container">
-        <div class="d-block d-sm-none d-lg-block">
+        <!-- 直式課程選單 -->
+        <div class="d-block d-md-none d-lg-block">
             <ul class="list-unstyled row">
                 <li class="col-12 col-sm-4 mb-3 mb-sm-0" data-aos="fade-up">
                     <div class="card rounded-lg course-card">
@@ -137,7 +144,8 @@
                 </li>
             </ul>
         </div>
-        <div class="d-none d-sm-block d-lg-none">
+        <!-- 橫式課程選單 -->
+        <div class="d-none d-md-block d-lg-none">
             <ul class="list-unstyled row">
                 <li class="col-12">
                     <div class="card mb-4 rounded-lg overflow-hidden">
@@ -213,6 +221,7 @@
     </div>
 </div>
 
+<!-- 預約須知 -->
 <div class="container text-dark-brick-red" style="margin-bottom: 104px;" data-aos="fade-up">
     <div class="row justify-content-center">
         <div class="col-12 col-sm-8 col-lg-5">
@@ -228,8 +237,10 @@
     </div>
 </div>
 
+  <!-- 頁尾 -->
   <footer class="footer bg-dark-brick-red">
     <div class="container">
+      <!-- 訂閱資訊 -->
       <div class="row py-6 border-bottom align-items-center">
         <div class="col-12 col-lg-8">
           <div class="d-flex justify-content-between align-items-lg-center flex-column flex-lg-row">
@@ -244,11 +255,14 @@
           </div>
         </div>
       </div>
+      <!-- 頁尾導覽列 -->
       <div class="footer-body d-flex flex-column py-6">
         <div class="footer-item d-flex justify-content-between">
+          <!-- LOGO -->
           <a href="index.html">
             <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
           </a>
+          <!-- icon 連結 -->
           <ul class="footer-icon list-unstyled d-flex">
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-instagram"></i></a></li>
@@ -256,23 +270,26 @@
           </ul>
         </div>
         <div class="footer-item d-flex flex-column flex-md-row align-items-md-end">
+          <!-- 導覽列 -->
           <ul class="list-unstyled m-0">
             <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
             <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
             <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
           </ul>
+          <!-- 版權文字 -->
           <p class="text-white offset-md-3 ps-md-3 offset-lg-4 ps-lg-6 mb-2">© 2021. All Rights Reserved.</p>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
-  <!-- Swiper JS -->
+  <!-- swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- AOS JS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- AOS 動畫設定 -->
   <script>
     AOS.init({
       // Global settings:

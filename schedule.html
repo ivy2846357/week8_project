@@ -6,13 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DOYOGA - 當月課表</title>
+  <!-- Font Awesome icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
+  <!-- swiper CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- AOS CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
+  <!-- 導覽列 -->
   <nav class="navbar navbar-expand-lg navbar-light bg-beige py-4">
     <div class="container">
       <a class="navbar-brand me-9 pe-8 d-lg-none" href="index.html">
@@ -49,6 +53,7 @@
     </div>
   </nav>
 
+  <!-- 右側 icon 列表 -->
   <div class="icon-navbar position-fixed d-none d-md-block" style="z-index: 1100;">
     <ul class="list-unstyled d-flex flex-column justify-content-center align-items-center me-3">
       <li class="mb-2 rounded-sm">
@@ -66,6 +71,7 @@
   
 <h3 class="text-dark-brick-red mt-9 mb-6 text-center">本月課表</h3>
 
+<!-- 課表 -->
 <div class="container-lg mb-6">
     <div class="row">
         <div class="col-12 col-lg-10 mx-auto" data-aos="fade-up">
@@ -174,9 +180,10 @@
     </div>
 </div>
 
+<!-- 上課須知 -->
 <h3 class="text-gray text-center mb-6" data-aos="fade-up">上課須知</h3>
 
-<div class="container class-notice">
+<div class="container class-notice" style="margin-bottom: 104px;">
     <div class="row mb-4 d-flex justify-content-center justify-content-lg-start" data-aos="fade-right">
         <div class="offset-lg-2 col-10 col-lg-7 d-flex align-items-center">
             <h2 class="me-4 text-gray">1.</h2>
@@ -206,8 +213,10 @@
     </div>
 </div>
 
+  <!-- 頁尾 -->
   <footer class="footer bg-dark-brick-red">
     <div class="container">
+      <!-- 訂閱資訊 -->
       <div class="row py-6 border-bottom align-items-center">
         <div class="col-12 col-lg-8">
           <div class="d-flex justify-content-between align-items-lg-center flex-column flex-lg-row">
@@ -222,11 +231,14 @@
           </div>
         </div>
       </div>
+      <!-- 頁尾導覽列 -->
       <div class="footer-body d-flex flex-column py-6">
         <div class="footer-item d-flex justify-content-between">
+          <!-- LOGO -->
           <a href="index.html">
             <img src="./assets/images/DOYOGA.png" alt="logo" class="logo mb-2">
           </a>
+          <!-- icon 連結 -->
           <ul class="footer-icon list-unstyled d-flex">
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#" class="text-white h4 me-2"><i class="fab fa-instagram"></i></a></li>
@@ -234,23 +246,26 @@
           </ul>
         </div>
         <div class="footer-item d-flex flex-column flex-md-row align-items-md-end">
+          <!-- 導覽列 -->
           <ul class="list-unstyled m-0">
             <li class="mb-2"><a href="class-introduction.html" class="text-white">課程介紹</a></li>
             <li class="mb-2"><a href="class-environment.html" class="text-white">瑜珈空間</a></li>
             <li class="mb-2"><a href="schedule.html" class="text-white">當月課表</a></li>
           </ul>
+          <!-- 版權文字 -->
           <p class="text-white offset-md-3 ps-md-3 offset-lg-4 ps-lg-6 mb-2">© 2021. All Rights Reserved.</p>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
-  <!-- Swiper JS -->
+  <!-- swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- AOS JS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- AOS 動畫設定 -->
   <script>
     AOS.init({
       // Global settings:

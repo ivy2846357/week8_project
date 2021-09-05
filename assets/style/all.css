@@ -13518,6 +13518,18 @@ a {
   width: 96px;
 }
 
+.rounded-lg {
+  border-radius: 16px;
+}
+
+.rounded-md {
+  border-radius: 4.8px;
+}
+
+.rounded-sm {
+  border-radius: 4px;
+}
+
 .nav-hover {
   border-bottom: 1px solid transparent;
   -webkit-transition: all .3s;
@@ -13529,24 +13541,24 @@ a {
   border-bottom: 1px solid #707070;
 }
 
+.icon-navbar {
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.icon-navbar .fab {
+  font-size: 48px;
+}
+
 footer .footer-title {
   border-bottom: 1px solid #FFF;
 }
 
 footer .footer-title .input-group {
   width: 30%;
-}
-
-.rounded-lg {
-  border-radius: 16px;
-}
-
-.rounded-md {
-  border-radius: 4.8px;
-}
-
-.rounded-sm {
-  border-radius: 4px;
 }
 
 .btn-brick-red {
@@ -13608,6 +13620,28 @@ footer .footer-title .input-group {
   height: 94px;
 }
 
+.teacher-info .teacher-card {
+  top: 0;
+  right: 0;
+}
+
+.teacher-info .teacher-card-item {
+  width: 100%;
+}
+
+.teacher-info .teacher-card-item-lg {
+  width: 110%;
+}
+
+@media (max-width: 576px) {
+  .teacher-info .teacher-card-item {
+    width: 100%;
+  }
+  .teacher-info .teacher-card-item-lg {
+    width: 100%;
+  }
+}
+
 .environment-introduct .card-img-lg {
   height: 444px;
 }
@@ -13660,45 +13694,6 @@ footer .footer-title .input-group {
   margin-bottom: 11px;
 }
 
-.teacher-card {
-  top: 0;
-  right: 0;
-}
-
-.teacher-card-item {
-  width: 100%;
-}
-
-.teacher-card-item-lg {
-  width: 100%;
-}
-
-@media (max-width: 576px) {
-  .teacher-card-lg {
-    width: 110%;
-  }
-}
-
-.icon-navbar {
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.icon-navbar .fab {
-  font-size: 48px;
-}
-
-.send-btn {
-  margin-bottom: 116px;
-}
-
-.index-btn {
-  margin-bottom: 104px;
-}
-
 .select-border {
   display: inline;
   border-bottom: 2px solid #C0A4A5;
@@ -13707,6 +13702,18 @@ footer .footer-title .input-group {
 
 .special-class .card-img {
   height: 341px;
+}
+
+@media (max-width: 992px) {
+  .modal-dialog-width {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .modal-dialog-width {
+    max-width: 100%;
+  }
 }
 
 .class-card {
@@ -13736,22 +13743,6 @@ footer .footer-title .input-group {
   height: 96px;
   top: -12%;
   left: 38%;
-}
-
-@media (max-width: 992px) {
-  .modal-dialog-width {
-    max-width: 80%;
-  }
-}
-
-@media (max-width: 576px) {
-  .modal-dialog-width {
-    max-width: 100%;
-  }
-}
-
-.class-notice {
-  margin-bottom: 104px;
 }
 
 .environment-card {
