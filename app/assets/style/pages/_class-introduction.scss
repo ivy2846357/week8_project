@@ -32,3 +32,9 @@
     top: -12%;
     left: 38%;
 }
+
+@media (max-width:992px) {
+    .modal-dialog-width {
+        max-width: 80%;
+    }
+}

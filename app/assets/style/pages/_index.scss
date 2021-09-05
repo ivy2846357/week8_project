@@ -6,6 +6,12 @@
     background-size: cover;
 }
 
+@media (max-width: 576px) {
+    .banner {
+        background-position: 30% 110%;
+    }
+}
+
 .advantage-card {
     height: 420px;
 }
@@ -13,6 +19,12 @@
 @media (max-width: 992px) {
     .advantage-card {
         height: 252px;
+    }
+}
+
+@media (max-width: 576px) {
+    .advantage-card {
+        height: 420px;
     }
 }
 
@@ -100,6 +112,14 @@
     &-item {
         width: 100%;
 
+        &-lg {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .teacher-card {
         &-lg {
             width: 110%;
         }
